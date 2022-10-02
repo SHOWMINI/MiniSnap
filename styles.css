@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 
 @font-face {
@@ -54,12 +54,12 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 10, 50, .6);
-    background-image: url("images/head.jpg");
+    background-image: url("images/head1.jpg");
     background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 20%;
 }
-
 .band-name {
     text-align: center;
     margin: 100;
@@ -70,7 +70,7 @@ html, body {
 }
 
 .band-name-large {
-    font-size: 8em;
+    font-size: 100em;
 }
 
 .content-section {
@@ -92,7 +92,7 @@ html, body {
 
 .about-band-image {
     float: left;
-    height: 200px;
+    height: 150px;
     width: 200px;
     margin: 15px;
     border-radius: 50%;
